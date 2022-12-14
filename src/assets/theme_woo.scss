@@ -1,0 +1,81 @@
+.bg-light {
+    background-color: #e6b509 !important;
+    height: 50px;
+}
+
+body {
+    background: #3c3c3c;
+}
+
+.img-overlay {
+    background: none;
+}
+
+.game-title-box {
+    text-align: center;
+    width: 100%;
+}
+
+.game-title {
+    background: #615f57;
+    padding: 2px;
+}
+
+.game-icon {
+    color: rgb(230 181 9);
+}
+
+.play {
+    background: #fff;
+    border: none;
+    padding-bottom: 5px;
+    border-radius: 0px;
+    border: solid 1px #f5f5f542;
+}
+
+.play_title {
+    color: #ffffff;
+    background-color: #505050;
+    text-shadow: none;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.btn-redo {
+    color: #ffffff !important;
+    background: #3c3c3c !important;
+}
+
+.typing {
+    width: 14em;
+    white-space: nowrap;
+    border-right: 2px solid transparent;
+    animation: typing 3.5s steps(15, end), blink-caret .75s step-end infinite;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    overflow: hidden;
+}
+
+/* type eff */
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 15em;
+    }
+}
+
+/*light*/
+@keyframes blink-caret {
+
+    from,
+    to {
+        box-shadow: 1px 0 0 0 transparent;
+    }
+
+    50% {
+        box-shadow: 1px 0 0 0;
+    }
+}

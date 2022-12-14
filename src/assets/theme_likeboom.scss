@@ -1,0 +1,76 @@
+.likebook {
+    width: 180px;
+}
+
+.play {
+    background: #091931;
+    border: 1px solid #66c3b7;
+    padding: 5px;
+    border-radius: 0px;
+}
+
+.play .loading {
+    color: white;
+}
+
+.play_title {
+    color: #272424;
+    background-color: #c7cace;
+    text-shadow: none;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.modal-content {
+    background-color: #f5f5f5;
+}
+
+.question_text {
+    color: white !important;
+}
+
+.question_text_break {
+    color: white !important;
+}
+
+.qcard {
+    color: white !important;
+}
+
+.btn-options {
+    background: #faf8ef;
+}
+
+.typing {
+    width: 14em;
+    white-space: nowrap;
+    border-right: 2px solid transparent;
+    animation: typing 3.5s steps(15, end), blink-caret .75s step-end infinite;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    overflow: hidden;
+}
+
+/* type eff */
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 15em;
+    }
+}
+
+/*light*/
+@keyframes blink-caret {
+
+    from,
+    to {
+        box-shadow: 1px 0 0 0 transparent;
+    }
+
+    50% {
+        box-shadow: 1px 0 0 0;
+    }
+}

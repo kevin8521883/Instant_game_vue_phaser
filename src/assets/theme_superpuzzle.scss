@@ -1,0 +1,67 @@
+.superpuzzle {
+    width: 140px;
+    padding-left: 10px;
+}
+
+.bg-light {
+    background-color: #164370 !important;
+    height: 50px;
+}
+
+.game-list {
+    border: 0px;
+}
+
+.game-list.active {
+    border: 0 !important;
+}
+
+.play {
+    border: 5px solid #c3bbbb;
+}
+
+.game-title-box {
+    text-align: left;
+    width: 100%;
+}
+
+.game-title {
+    color: white;
+    padding: 2px;
+    margin-left: 10px;
+}
+
+
+.typing {
+    width: 14em;
+    white-space: nowrap;
+    border-right: 2px solid transparent;
+    animation: typing 3.5s steps(15, end), blink-caret .75s step-end infinite;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    overflow: hidden;
+}
+
+/* type eff */
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 15em;
+    }
+}
+
+/*light*/
+@keyframes blink-caret {
+
+    from,
+    to {
+        box-shadow: 1px 0 0 0 transparent;
+    }
+
+    50% {
+        box-shadow: 1px 0 0 0;
+    }
+}

@@ -1,0 +1,481 @@
+$theme_color1: #14334d;
+$theme_color2: #66c3b7;
+$btn_main_color: #0017a1;
+$btn_main_background: #8bd5d2;
+
+body {
+  background: #091931;
+  color: white;
+  text-align: center;
+  font-size: 3vmin;
+}
+
+.base {
+  margin-top: 60px;
+}
+
+.play {
+  // max-width: 100%;
+  // min-height: 60hv;
+}
+
+.modal-dialog {
+  color: black;
+}
+
+.logo {
+  width: 120px;
+}
+
+.logo.haha {
+  width: 80px;
+}
+
+.logo.gogo {
+  width: 120px;
+}
+
+.logo.funfunquiz {
+  width: 120px;
+}
+
+.logo.goodnice {
+  width: 120px;
+}
+
+.logo.hichill {
+  width: 160px;
+}
+
+.logo.yalife {
+  width: 170px;
+}
+
+.logo.tot {
+  width: 170px;
+}
+
+/*lan*/
+.choose_lan {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.language_modal {
+  overflow: auto;
+  overflow-y: scroll;
+  height: 100%;
+  max-height: 750px;
+  display: flex;
+  background-color: #fff;
+  color: black;
+}
+
+.language_modal ul li {
+  color: black;
+  cursor: pointer;
+  font-size: x-large;
+  text-align: left;
+}
+
+/* 滚动条滑块 */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 3px;
+  background: rgba(0, 0, 0, 0.01);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  background: rgba(0, 0, 0, 0.12);
+}
+
+/* nav bar */
+
+#head_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-light {
+  background-color: $theme_color1 !important;
+  height: 50px;
+}
+
+.nav-link {
+  padding: 0px !important;
+}
+
+.home-icon {
+  width: 30px;
+  margin-left: 20px;
+}
+
+/*game list*/
+.game-list {
+  margin-bottom: 7px;
+  position: relative;
+  width: 100%;
+  min-height: 50px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.game-list img {
+  height: auto;
+}
+
+.game-icon {
+  top: 5px;
+  position: absolute;
+  left: 10px;
+  z-index: 102;
+  font-size: x-large;
+  color: rgba(222, 40, 40, 0.85);
+}
+
+.game-icon .fire {
+  margin-right: 5px;
+}
+
+.game-label {
+  top: 5px;
+  position: absolute;
+  padding: 1px 5px 1px 5px;
+  right: 5px;
+  color: #fff;
+  z-index: 100;
+  background: rgba(222, 40, 40, 0.85);
+  border-radius: 0.15rem;
+}
+
+.game-title-box {
+  position: absolute;
+  bottom: 0;
+  padding-left: 5px;
+  text-align: left;
+}
+
+.game-title {
+  color: #fff;
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+.video_play {
+  position: absolute;
+  bottom: 25px;
+  padding-left: 15px;
+}
+
+.img-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /*background: linear-gradient(135deg, transparent 22%, rgba(0, 0, 0, .7));*/
+  background: linear-gradient(195deg, #04040466 50%, rgb(0, 0, 0));
+  top: 0;
+  left: 0;
+}
+
+/*play*/
+.playpage {
+//   max-width: 0%;
+  max-width: 550px;
+}
+
+.play_title {
+  color: #fff;
+  background-color: #164370;
+  text-shadow: #4a4848 4px 4px 4px;
+  padding: 10px;
+}
+
+.play {
+  background: #fff;
+  border: 5px solid #66c3b7;
+  padding: 5px;
+  margin-bottom: 8px;
+  border-radius: 10px;
+}
+
+.play .loading {
+  max-width: 100%;
+  min-height: 600px;
+  overflow: hidden;
+
+  margin: 0 auto;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.play_error {
+  color: #ffabab;
+}
+
+.share_box {
+  padding: 5px;
+  margin: 5px;
+}
+
+.btn-redo {
+  color: #091931 !important;
+  background: #ffcb1d !important;
+}
+
+.btn-fb {
+  color: #fff;
+  background-color: #4267b2;
+  border-color: #dcdbdb;
+}
+
+.btn-primary,
+.btn-theme {
+  color: #0017a1;
+  font-weight: 700;
+  background-color: #8bd5d2;
+  border-color: #8bd5d2;
+}
+
+.btn-options {
+  margin-top: 5px;
+  color: #505050;
+  font-weight: 700;
+  border-color: #505454db;
+  background: #ffca1817;
+}
+
+.btn-options:hover {
+  background: #332f2f;
+  color: white;
+}
+
+.btn-x-large {
+  font-size: x-large;
+}
+
+/*load*/
+.load {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translate(-50%, -50%);
+  width: 30px;
+  height: 30px;
+}
+
+.loadtxt {
+  position: absolute;
+  top: 50%;
+}
+
+.load hr {
+  border: 0;
+  margin: 0;
+  width: 40%;
+  height: 40%;
+  position: absolute;
+  border-radius: 50%;
+  animation: spin 2s ease infinite;
+}
+
+.load :first-child {
+  background: #19a68c;
+  animation-delay: -1.5s;
+}
+
+.load :nth-child(2) {
+  background: #f63d3a;
+  animation-delay: -1s;
+}
+
+.load :nth-child(3) {
+  background: #fda543;
+  animation-delay: -0.5s;
+}
+
+.load :last-child {
+  background: #193b48;
+}
+
+@keyframes spin {
+  0%,
+  100% {
+    transform: translate(0);
+  }
+
+  25% {
+    transform: translate(160%);
+  }
+
+  50% {
+    transform: translate(160%, 160%);
+  }
+
+  75% {
+    transform: translate(0, 160%);
+  }
+}
+
+.fadeineff {
+  -webkit-animation: fadein 2s;
+  /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2s;
+  /* Firefox < 16 */
+  -ms-animation: fadein 2s;
+  /* Internet Explorer */
+  -o-animation: fadein 2s;
+  /* Opera < 12.1 */
+  animation: fadein 2s;
+}
+
+/*fade in 效果*/
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/*shake*/
+.shake-button {
+  position: relative;
+  animation-name: shake;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+}
+
+@keyframes shakeAnim {
+  0% {
+    left: 0;
+  }
+
+  1% {
+    left: -3px;
+  }
+
+  2% {
+    left: 5px;
+  }
+
+  3% {
+    left: -8px;
+  }
+
+  4% {
+    left: 8px;
+  }
+
+  5% {
+    left: -5px;
+  }
+
+  6% {
+    left: 3px;
+  }
+
+  7% {
+    left: 0;
+  }
+}
+
+.shake-button:hover {
+  animation-name: shakeAnim;
+}
+
+@keyframes shake {
+  30% {
+    left: 0;
+  }
+
+  31% {
+    left: -3px;
+  }
+
+  32% {
+    left: 5px;
+  }
+
+  33% {
+    left: -8px;
+  }
+
+  34% {
+    left: 8px;
+  }
+
+  35% {
+    left: -5px;
+  }
+
+  36% {
+    left: 3px;
+  }
+
+  37% {
+    left: 0;
+  }
+}
+
+.share {
+  border: #4267b2 3px solid;
+  font-size: x-large;
+  color: #4267b2;
+  font-weight: bolder;
+  margin-right: 5px;
+}

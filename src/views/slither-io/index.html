@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Slither.io Clone - Loonride Example</title>
+    <script src="lib/phaser.min.js"></script>
+    <script src="src/game.js"></script>
+    <script src="src/snake.js"></script>
+    <script src="src/playerSnake.js"></script>
+    <script src="src/botSnake.js"></script>
+    <script src="src/eye.js"></script>
+    <script src="src/eyePair.js"></script>
+    <script src="src/shadow.js"></script>
+    <script src="src/food.js"></script>
+    <script src="src/util.js"></script>
+  </head>
+  <body>
+    <script>
+      (function() {
+        var game = new Phaser.Game(800, 500, Phaser.AUTO, null);
+
+        game.state.add("Game", Game);
+        game.state.start("Game");
+      })();
+    //   window.onload = function() {
+    //     function resize() {
+    //       let canvas = document.querySelector("canvas");
+    //       let ww = window.innerWidth;
+    //       let wh = window.innerHeight;
+    //       let wRatio = ww / wh;
+    //       let Ratio = canvas.width / canvas.height;
+    //       console.log(wRatio, Ratio);
+    //       if (Ratio < wRatio) {
+    //         canvas.style.width = ww + "px";
+    //         canvas.style.height = ww / Ratio + "px";
+    //       } else {
+    //         canvas.style.width = wh * Ratio + "px";
+    //         canvas.style.height = wh + "px";
+    //       }
+    //       //   console.log(window.innerHeight);
+    //       //   console.log(window.innerWidth);
+    //     }
+    //     resize();
+    //     // window.addEventListener("resize", resize, false);
+    //   };
+    </script>
+  </body>
+</html>

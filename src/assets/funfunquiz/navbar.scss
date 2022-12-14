@@ -1,0 +1,96 @@
+/* nav bar */
+.navbar-light {
+    background: #14334d !important;
+}
+
+#head_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-light {
+    height: 50px;
+}
+
+.nav-link {
+    padding: 0px !important;
+}
+
+.home-icon {
+    width: 30px;
+    margin-left: 20px;
+}
+
+.logo {
+    width: 120px;
+}
+
+.logo.haha {
+    width: 80px;
+}
+
+.logo.gogo {
+    width: 120px;
+}
+
+.logo.funfunquiz {
+    width: 120px;
+}
+
+.logo.goodnice {
+    width: 120px;
+}
+
+.logo.hichill {
+    width: 160px;
+}
+
+.logo.yalife {
+    width: 170px;
+}
+
+.logo.tot {
+    width: 170px;
+}
+
+/*lan*/
+.choose_lan {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.language_modal {
+    overflow: auto;
+    overflow-y: scroll;
+    height: 100%;
+    max-height: 750px;
+    display: flex;
+    background-color: #fff;
+    color: black;
+}
+
+.language_modal ul li {
+    color: black;
+    cursor: pointer;
+    font-size: x-large;
+    text-align: left;
+}
+
+
+/* 語系滾動條 */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 3px;
+    background: rgba(0, 0, 0, 0.01);
+}
+
+
+::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background: rgba(0, 0, 0, 0.12);
+}

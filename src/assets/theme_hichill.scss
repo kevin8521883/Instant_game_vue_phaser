@@ -1,0 +1,77 @@
+.bg-light {
+    background-color: #164370 !important;
+}
+
+body {
+    background: #cecdca;
+}
+
+.play {
+    background: #fff;
+    border: 5px solid #2096c3;
+    border-radius: 0px;
+}
+
+.img-overlay {
+    box-shadow: 0 5px 10px rgb(9 25 49), 0 15px 40px rgb(166 173 201 / 20%);
+}
+
+.typing {
+    width: 14em;
+    white-space: nowrap;
+    border-right: 2px solid transparent;
+    animation: typing 3.5s steps(15, end), blink-caret .75s step-end infinite;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    overflow: hidden;
+}
+
+/* type eff */
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 15em;
+    }
+}
+
+/*light*/
+@keyframes blink-caret {
+
+    from,
+    to {
+        box-shadow: 1px 0 0 0 transparent;
+    }
+
+    50% {
+        box-shadow: 1px 0 0 0;
+    }
+}
+
+.btn-options {
+    background: #faf8ef;
+}
+
+.btn-info {
+    background-color: #70A7DE;
+    border-color: #70A7DE;
+}
+
+.btn-info:hover {
+    background-color: #92bce6;
+    border-color: #92bce6;
+}
+
+.question_text {
+    color: white !important;
+}
+
+.question_text_break {
+    color: white !important;
+}
+
+.qcard {
+    color: white !important;
+}
